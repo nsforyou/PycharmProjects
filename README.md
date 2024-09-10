@@ -8,6 +8,6 @@
 
 4.pycharm中如何给MarkDown文件插入图片？
 
-![](.README_images/a3700184.png)
+Command +Shift+P = PICGO UpLoad picture form pastbord
 
-![1726001102131](image/README/1726001102131.png)
+![](https://s2.loli.net/2024/09/11/qidhIBtDRT4fsMa.png)
