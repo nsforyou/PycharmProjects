@@ -9,3 +9,5 @@
 4.pycharm中如何给MarkDown文件插入图片？
 
 ![](.README_images/a3700184.png)
+
+![1726001102131](image/README/1726001102131.png)
