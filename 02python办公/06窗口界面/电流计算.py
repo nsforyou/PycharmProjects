@@ -2,20 +2,12 @@ import tkinter as tk
 
 # 创建窗口
 root = tk.Tk()
-root.title("My Window")
+root.title("Python应用")
 
 # 定义变量
 power = tk.IntVar()
 voltage = tk.IntVar()
-
-
-
-
-
-
-
-
-
+dianliu = tk.IntVar()
 # 获取屏幕分辨率
 screen_width = root.winfo_screenwidth()
 screen_height = root.winfo_screenheight()
@@ -26,13 +18,13 @@ window_height = int(screen_height / 2)
 root.geometry(f"{window_width}x{window_height}")
 
 # 创建输入框和输出框
-label1 = tk.Label(root, text="电动机功率 单位KW")
-label2 = tk.Label(root, text="工作电压 单位KV")
-label3 = tk.Label(root, text="额定电流")
+label1 = tk.Label(root, text="电动机功率 单位：KW")
+label2 = tk.Label(root, text="工作电压 单位：KV")
+label3 = tk.Label(root, text="额定电流 单位：A")
 # entry = tk.Entry(root, textvariable=A, validate="key")
 input1 = tk.Entry(root, width=30, textvariable=power, validate="key") 
 input2 = tk.Entry(root, width=30, textvariable=voltage, validate="key")
-output = tk.Text(root, height=10, width=30)
+output = tk.Text(root, width=30, textvariable=dianliu, validate="key")
 
 # 创建按钮
 button1 = tk.Button(root, text="开始计算")
